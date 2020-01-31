@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inverter_tb"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vdda! gnd!"
+  hierDelim "."
+  netlistDir "/home/bbrown/simulation/inverter_tb/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "lab1_bb/inverter_tb/schematic" "inverter_tb" )
+( "lab1_bb/inverter/schematic" "inverter" )
+ )
+( "inverter_tb" "ihnl/cds1/map" )
+( "inverter" "ihnl/cds0/map" )
+ )

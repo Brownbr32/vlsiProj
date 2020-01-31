@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Jan 17 14:41:18 2020
+// Design library name: lab1_bb
+// Design cell name: inverter_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdda!

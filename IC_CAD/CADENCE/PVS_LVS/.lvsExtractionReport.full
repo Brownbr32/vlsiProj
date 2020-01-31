@@ -1,0 +1,46 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : inverter.rep
+ERC Summary File         : inverter.sum
+LVS Comparison Report    : inverter.rep.cls
+LVS Softchk Report       : inverter.softchk
+Layout Name              : /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.gds ("inverter")
+User Name                : bbrown
+Creation Time            : Fri Jan 31 14:56:00 2020
+Current directory        : /home/bbrown/IC_CAD/CADENCE/PVS_LVS
+PVS Version              : 16.10-p006 Thu Jul 27 18:05:02 PDT 2017
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Warnings and errors of connectivity for cell "inverter"
+-------------------------------------------------------
+
+[WARN] Different labels for net 3, it is assigned to "input":
+    [1] Label "input" on layer 1064(metal1_conn_text) at (-9.607, 3.933)
+    [2] Label "vdda!" on layer 1076(m1_label) at (-9.395, 3.915)
+
+[WARN] Unattached port label:
+    Label "gnd!" on layer 1076(m1_label) at (-7.915, 2.605)
+
+[WARN] Unattached port label:
+    Label "vdda!" on layer 1076(m1_label) at (-7.840, 5.175)
+
+
+Clean cell list (added by extraction report parser )
+ for cell "nmos1v$$2"
+ for cell "pmos1v$$3"

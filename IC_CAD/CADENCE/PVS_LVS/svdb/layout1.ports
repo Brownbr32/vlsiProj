@@ -1,0 +1,4 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary layout1
+input 3 input -19180 7840 metal1_conn
+output 1 output -17510 7840 metal1_conn

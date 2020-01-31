@@ -1,0 +1,27 @@
+/usr/local/cad_tools/cadence/PVS161/tools/bin/.preHostEnvCheck[15]: lsb_release: not found [No such file or directory]
+/usr/local/cad_tools/cadence/PVS161/tools/bin/.preHostEnvCheck[16]: lsb_release: not found [No such file or directory]
+WARNING: HOST <rhel-cadence> DOES NOT APPEAR TO BE A CADENCE SUPPORTED LINUX CONFIGURATION.
+         For More Info,  Please Run '<cdsroot>/tools.lnx86/bin/checkSysConf' <productId>.
+
+Parameters:
+	-runDir
+	/home/bbrown/IC_CAD/CADENCE/PVS_LVS
+	-ossdir
+	/home/bbrown/IC_CAD/CADENCE/PVS_LVS/
+	-cellmap
+	/home/bbrown/IC_CAD/CADENCE/PVS_LVS/lay_cellMap.txt
+	-ppid
+	72106
+	-form
+	-viewer
+	virtuoso
+	-schview
+	schematic
+	-tag
+	LCGJJVLKOGLLQMMGJ
+
+
+Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 16.1 ... succeeded (1s).
+starting pvsProbeServer: port= 51097
+Starting probe server on port: 51097
+Checking in SoftShare license Phys_Ver_Sys_Results_Mgr ... succeeded (1s).

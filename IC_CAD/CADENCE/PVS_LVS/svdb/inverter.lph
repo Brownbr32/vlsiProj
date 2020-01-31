@@ -1,0 +1,11 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% pmos1v$$3 5
+M0 MP 4
+% nmos1v$$2 3
+M0 MN 4
+% inverter 2
+X0 nmos1v$$2 3
+X1 pmos1v$$3 5

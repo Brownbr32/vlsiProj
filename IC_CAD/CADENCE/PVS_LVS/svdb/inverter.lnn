@@ -1,0 +1,12 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary inverter
+% nmos1v$$2 3
+1 D_drain_1
+2 S_source_0
+% pmos1v$$3 5
+1 D_drain_1
+2 S_source_0
+5 B
+% inverter 2
+1 output
+3 input

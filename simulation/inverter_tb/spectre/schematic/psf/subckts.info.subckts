@@ -1,0 +1,361 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "2:41:21 PM, Fri Jan 17, 2020"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"resm4_m" "subckt" (
+""
+""
+""
+)
+"g45pcap2" "subckt" (
+""
+""
+""
+)
+"gpdk045_mosvar1v" "subckt" (
+""
+""
+""
+)
+"resm11_m" "subckt" (
+""
+""
+""
+)
+"g45n2nvt" "subckt" (
+""
+""
+""
+)
+"resspdiff" "subckt" (
+""
+""
+""
+)
+"resnsppoly" "subckt" (
+""
+""
+""
+)
+"resm3_m" "subckt" (
+""
+""
+""
+)
+"g45rm4" "subckt" (
+""
+""
+""
+)
+"g45rspd" "subckt" (
+""
+""
+""
+)
+"g45rnspp" "subckt" (
+""
+""
+""
+)
+"resnsndiff" "subckt" (
+""
+""
+""
+)
+"g45n1lvt" "subckt" (
+""
+""
+""
+)
+"g45rnwo" "subckt" (
+""
+""
+""
+)
+"ressnpoly" "subckt" (
+""
+""
+""
+)
+"g45ncap1" "subckt" (
+""
+""
+""
+)
+"ressndiff" "subckt" (
+""
+""
+""
+)
+"g45rnsnd" "subckt" (
+""
+""
+""
+)
+"g45rsnd" "subckt" (
+""
+""
+""
+)
+"g45rm8" "subckt" (
+""
+""
+""
+)
+"g45cmim" "subckt" (
+""
+""
+""
+)
+"g45p1svt" "subckt" (
+"geo_fac misa2 sb scc fac1 fac2 lef xw ad misa1 dmcg factor nrs toxmis_p as dwmis_p nf pd sa sca w multi scb ps sd wef dlmis_p l vthmis_p nrd"
+"d g s b"
+"I4.PM0"
+)
+"g45p1svt.ressnpoly_rg" "subckt" (
+""
+""
+""
+)
+"g45p1svt.ressppoly_rg" "subckt" (
+"ptc1 mf ptc2 pvc1 pt tfac rsh ww pvc2 dxw_ressppoly ll dw"
+"n1 n2"
+"I4.PM0.xrg"
+)
+"resnspdiff" "subckt" (
+""
+""
+""
+)
+"pnp_scalable" "subckt" (
+""
+""
+""
+)
+"g45rm2" "subckt" (
+""
+""
+""
+)
+"g45rm6" "subckt" (
+""
+""
+""
+)
+"resnwsti" "subckt" (
+""
+""
+""
+)
+"g45rm5" "subckt" (
+""
+""
+""
+)
+"resm8_m" "subckt" (
+""
+""
+""
+)
+"resm1_m" "subckt" (
+""
+""
+""
+)
+"g45rm9" "subckt" (
+""
+""
+""
+)
+"g45rm3" "subckt" (
+""
+""
+""
+)
+"g45inds" "subckt" (
+""
+""
+""
+)
+"resm9_m" "subckt" (
+""
+""
+""
+)
+"resm7_m" "subckt" (
+""
+""
+""
+)
+"resnsnpoly" "subckt" (
+""
+""
+""
+)
+"npn_scalable" "subckt" (
+""
+""
+""
+)
+"resm6_m" "subckt" (
+""
+""
+""
+)
+"g45p1lvt" "subckt" (
+""
+""
+""
+)
+"g45p2svt" "subckt" (
+""
+""
+""
+)
+"g45rm11" "subckt" (
+""
+""
+""
+)
+"g45rspp" "subckt" (
+""
+""
+""
+)
+"gpdk045_mosvar2v" "subckt" (
+""
+""
+""
+)
+"inverter" "subckt" (
+""
+"_net1 _net0 0 vdda!"
+"I4"
+)
+"g45pcap1" "subckt" (
+""
+""
+""
+)
+"g45rm10" "subckt" (
+""
+""
+""
+)
+"resnwoxide" "subckt" (
+""
+""
+""
+)
+"g45rnspd" "subckt" (
+""
+""
+""
+)
+"g45rnsnp" "subckt" (
+""
+""
+""
+)
+"g45inda" "subckt" (
+""
+""
+""
+)
+"g45rm7" "subckt" (
+""
+""
+""
+)
+"g45rnws" "subckt" (
+""
+""
+""
+)
+"resm10_m" "subckt" (
+""
+""
+""
+)
+"g45rm1" "subckt" (
+""
+""
+""
+)
+"ressppoly" "subckt" (
+""
+""
+""
+)
+"resm2_m" "subckt" (
+""
+""
+""
+)
+"g45n1hvt" "subckt" (
+""
+""
+""
+)
+"g45n1svt" "subckt" (
+"geo_fac misa2 sb scc fac1 fac2 lef toxmis_n xw ad misa1 dmcg factor nrs as nf pd sa sca w dlmis_n multi scb ps sd vthmis_n wef dwmis_n l nrd"
+"d g s b"
+"I4.NM0"
+)
+"g45n1svt.ressnpoly_rg" "subckt" (
+"ptc1 mf ptc2 pvc1 pt tfac rsh ww pvc2 ll dw dxw_ressnpoly"
+"n1 n2"
+"I4.NM0.xrg"
+)
+"g45n1svt.ressppoly_rg" "subckt" (
+""
+""
+""
+)
+"g45p1hvt" "subckt" (
+""
+""
+""
+)
+"g45n2svt" "subckt" (
+""
+""
+""
+)
+"g45rsnp" "subckt" (
+""
+""
+""
+)
+"resm5_m" "subckt" (
+""
+""
+""
+)
+"g45n1nvt" "subckt" (
+""
+""
+""
+)
+"g45ncap2" "subckt" (
+""
+""
+""
+)
+END

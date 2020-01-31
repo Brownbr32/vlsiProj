@@ -1,0 +1,8 @@
+
+// Library name: lab1_bb
+// Cell name: inverter_tb
+// View name: schematic
+V0 (_net0 0) vsource dc=Vin type=pulse val0=0 val1=1 period=20n rise=10p \
+        fall=10p width=10n
+I4 (_net0 out\-put) inverter
+V1 (vdda! 0) vsource dc=1 type=dc

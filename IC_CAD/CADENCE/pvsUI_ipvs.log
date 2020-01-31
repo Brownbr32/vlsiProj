@@ -1,0 +1,5 @@
+/usr/local/cad_tools/cadence/PVS161/tools/bin/.preHostEnvCheck[15]: lsb_release: not found [No such file or directory]
+/usr/local/cad_tools/cadence/PVS161/tools/bin/.preHostEnvCheck[16]: lsb_release: not found [No such file or directory]
+WARNING: HOST <rhel-cadence> DOES NOT APPEAR TO BE A CADENCE SUPPORTED LINUX CONFIGURATION.
+         For More Info,  Please Run '<cdsroot>/tools.lnx86/bin/checkSysConf' <productId>.
+

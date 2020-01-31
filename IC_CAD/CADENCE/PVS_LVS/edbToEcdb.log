@@ -1,0 +1,16 @@
+
+/usr/local/cad_tools/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : inverter_100290.db
+ECDB dir        : ./
+Top Cell        : inverter
+CDL netlist     : /home/bbrown/IC_CAD/CADENCE/PVS_LVS/svdb/inverter.net
+Layer map file  : /home/bbrown/IC_CAD/CADENCE/PVS_LVS/svdb/inverter.ecdbmap
+Text map file   : /home/bbrown/IC_CAD/CADENCE/PVS_LVS/svdb/inverter.ports
+Dependency map  : inverter.lmap.perc
+Lvs file        : /home/bbrown/IC_CAD/CADENCE/PVS_LVS/svdb/inverter.lvsfile
+Float net file : .inverter.info.softchk
+debug           : 0
+Source Library  : inverter_100290

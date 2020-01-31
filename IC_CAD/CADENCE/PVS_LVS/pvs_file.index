@@ -1,0 +1,93 @@
+"Cadence Directory" internal none /home/bbrown/IC_CAD/CADENCE/.cadence/
+"Current Directory" internal none /home/bbrown/IC_CAD/CADENCE
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/.preset.autosave
+"Job Signature" internal none IPVS_1580507753_72577
+"PVS Job Mode" internal none lvs
+"Run Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS
+"Technology Mapping File" internal none /home/bbrown/IC_CAD/CADENCE/gpdk045_v_6_0/pvtech.lib
+"Technology Name" internal none "gpdk045_pvs"
+"Technology Rule File" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1580507755
+"CDL Out Display Pin Information" internal none ENABLED
+"CDL Out Stop List" internal text auCdl
+"CDL Out View List" internal text auCdl schematic
+"Control File" input text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/pvslvsctl
+"DFII version" internal none 6.1.8.0
+"Do not check rules files before run" internal none ENABLED
+"Extracted Spice File" output text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.spi
+"Input Layout" input none OA: lab1_bb inverter layout
+"Input Schematic" input none OA: lab1_bb inverter schematic
+"Intermediate GDSII File" output none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.gds
+"Intermediate GDSII File creation Errors" output none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/PIPO1.LOG
+"Layout Cell Name" internal none inverter
+"Layout ConvertPin" internal text geometryAndText
+"Layout GDSII" input none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none lab1_bb
+"Layout MaxVertices" internal none 2048
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout ReplaceBusBitChar" input none nil
+"Layout Scale" internal none 0.0005
+"Layout TechLib" internal none gpdk045
+"Layout Top Cell" internal none inverter
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/lay_cellMap.txt
+"PIPO Log I" log text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/PIPO1.LOG
+"PIPO Output I" internal text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/pipo1.setup
+"PVS Job Log" log text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/pvsuilvs.log
+"PVS Job Mode" internal none lvs
+"Quantus QRC Data" internal none ENABLED
+"Rule File" input text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/.technology.rul
+"Run Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS
+"SI Log" log text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/SI.LOG
+"SI OSS Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/
+"SI Output" log text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/SI.OUT
+"SI Setup File" internal text  /home/bbrown/IC_CAD/CADENCE/PVS_LVS/si.env
+"Schematic Cell Name" internal none inverter
+"Schematic Library Name" internal none lab1_bb
+"Schematic Netlist" output text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.cdl
+"Schematic Top Cell" internal none inverter
+"Schematic View Name" internal none schematic
+"Simulator Mode" internal none auCdl
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1580507759
+"Comparison Report" output cls /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.rep.cls
+"ERC Result" internal none EMPTY
+"ERC Summary" output text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.sum
+"Extracted Spice File" output text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.spi
+"Extraction Report" output erc /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.rep
+"Extraction Result" internal none WARNINGS
+"LVS Report Options" internal none -none
+"Layout GDSII" input none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.gds
+"Layout Top Cell" internal none inverter
+"Mask SVDB Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/svdb
+"PVS Job Mode" internal none lvs
+"QRC Top Cell" internal none inverter
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/.technology.rul
+"Run Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/
+"SCONNECT RDB" output rdb /home/bbrown/IC_CAD/CADENCE/PVS_LVS/inverter.softchk
+"Schematic Top Cell" internal none inverter
+"UI Data" internal none ENABLED
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1580507760
+"Comparison Result" internal none MISMATCH
+"LVS Run Name" internal none inverter.rep
+"Run Directory" internal none /home/bbrown/IC_CAD/CADENCE/PVS_LVS/
+"Schematic Netlist" input text /home/bbrown/IC_CAD/CADENCE/PVS_LVS/netlist
+"UI Data" internal none ENABLED
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvsnvn
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1580507761

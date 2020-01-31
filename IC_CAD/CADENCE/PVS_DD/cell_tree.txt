@@ -1,0 +1,6 @@
+inverter
+
+inverter
+	nmos1v$$2
+	pmos1v$$3
+

@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inverter"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdda! gnd!"
+  hierDelim "."
+  netlistDir "/home/bbrown/IC_CAD/CADENCE/PVS_LVS/"
+ )
+( model
+( "lab1_bb/inverter/schematic" "inverter" )
+ )
+( "inverter" "ihnl/cds0/map" )
+ )

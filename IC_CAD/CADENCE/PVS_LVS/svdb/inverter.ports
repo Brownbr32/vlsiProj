@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary inverter
+input 3 input -19215 7865 metal1_conn
+vdda! 3 input -18790 7830 metal1_conn
+output 1 output -17505 7905 metal1_conn

@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+lab1_bb/inverter_tb/schematic inverter_tb
+lab1_bb/inverter/schematic inverter
+$endmodel
+$net
+gnd! 0
+vdda! vdda!
+$endnet
+$param
+p _gpar0
+ps ps
+Vin Vin
+$endparam

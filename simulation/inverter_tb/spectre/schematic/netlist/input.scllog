@@ -1,0 +1,8 @@
+Spectre (R) Circuit Simulator
+Version 18.1.0.077 64bit -- 1 Aug 2018
+Simulating `input.scs' on rhel-cadence at 2:41:20 PM, Fri Jan 17, 2020 (process id: 91583).
+H = mpsImport( "spectre" "ipi" "v0.0" ?session "spectre0_74895_17" )
+H->sclSetResultDir( "../psf" )
+H->sclRun( "all" )
+sclCkt0x9d50a90 = H->sclGetCircuit(  "" )
+H->sclQuit(  )

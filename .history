@@ -1,0 +1,60 @@
+#+1578687751
+cat "setenv LOCAL_CADSETUP /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0" > setup.sh
+#+1578687763
+echo "setenv LOCAL_CADSETUP /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0" > setup.sh
+#+1578687795
+echo path
+#+1578687894
+echo "set path = ($path /usr/local/cad_common//local/setups)" >> setup.sh
+#+1578687933
+hmod +x setup.sh
+#+1578687936
+chmod +x setup.sh
+#+1578688011
+source ./setup.sh
+#+1578688021
+echo $path
+#+1578688179
+mkdir IC_CAD
+#+1578688185
+cd IC_CAD/
+#+1578688200
+mkdir CADENCE
+#+1578688203
+cd CADENCE/
+#+1578688315
+cp ../../setup.sh .
+#+1578688323
+ls -a setup.sh
+#+1578688329
+ls -l setup.sh
+#+1578688507
+IC_CAD/CADENCE/setup.sh
+#+1578688761
+cp IC_CAD/CADENCE/setup.sh .
+#+1578688928
+vim setup.sh
+#+1578689025
+cd ../..
+#+1578689028
+pwd
+#+1579102593
+echo cad-uvu >> ./setup.sh
+#+1579102596
+cat setup.sh
+#+1579103720
+setenv LOCAL_CADSETUP /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0
+#+1579103728
+set path = ( $path /usr/local/cad_common/local/setups/ )
+#+1579103735
+cad-uvu
+#+1579628634
+source setup.sh
+#+1579746308
+ls
+#+1579749746
+exit
+#+1579896696
+cd IC_CAD/CADENCE/
+#+1579896772
+./setup.sh

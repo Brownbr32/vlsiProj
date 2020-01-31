@@ -1,0 +1,357 @@
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.077 64bit -- 1 Aug 2018
+Copyright (C) 1989-2018 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: bbrown   Host: rhel-cadence   HostID: 1CA1966C   PID: 91583
+Memory  available: 511.2951 GB  physical: 540.5905 GB
+CPU Type: AMD EPYC 7401P 24-Core Processor
+All processors running at 1996.2 MHz
+        Socket: Processors (Hyperthreaded Processor)
+        0:       0 ( 24 ),  1 ( 25 ),  2 ( 26 ),  3 ( 27 ),  4 ( 28 )
+                 5 ( 29 ),  6 ( 30 ),  7 ( 31 ),  8 ( 32 ),  9 ( 33 )
+                10 ( 34 ), 11 ( 35 ), 12 ( 36 ), 13 ( 37 ), 14 ( 38 )
+                15 ( 39 ), 16 ( 40 ), 17 ( 41 ), 18 ( 42 ), 19 ( 43 )
+                20 ( 44 ), 21 ( 45 ), 22 ( 46 ), 23 ( 47 )
+        
+System load averages (1min, 5min, 15min) : 0.2 %, 0.1 %, 0.1 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on rhel-cadence at 2:41:20 PM, Fri Jan 17, 2020 (process id: 91583).
+Current working directory: /home/bbrown/simulation/inverter_tb/spectre/schematic/netlist
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /usr/local/cad_tools/cadence/SPECTRE181/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre0_74895_17 -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 91583
+
+Loading /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/bbrown/simulation/inverter_tb/spectre/schematic/netlist/input.scs
+Reading file:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading file:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_mos.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_diode.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_bipolar.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_mimcap.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_moscap.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_resistor.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_inductor.scs
+Reading file:  /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/models/spectre/gpdk045_soa.scs
+Time for NDB Parsing: CPU = 579.114 ms, elapsed = 594.897 ms.
+Time accumulated: CPU = 599.282 ms, elapsed = 594.904 ms.
+Peak resident memory used = 68.3 Mbytes.
+
+Reading link:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /usr/local/cad_tools/cadence/SPECTRE181/tools.lnx86/spectre/etc/ahdl/constants.vams
+Existing shared object for module bsource_2b273e is up to date.
+Installed compiled interface for bsource_2b273e.
+Time for Elaboration: CPU = 24.862 ms, elapsed = 24.8649 ms.
+Time accumulated: CPU = 624.28 ms, elapsed = 619.902 ms.
+Peak resident memory used = 77 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
+
+
+Time for EDB Visiting: CPU = 1.074 ms, elapsed = 1.07408 ms.
+Time accumulated: CPU = 625.504 ms, elapsed = 621.123 ms.
+Peak resident memory used = 77.8 Mbytes.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 5
+              bsim4 2     
+     bsource_2b273e 2     
+            vsource 2     
+
+Analysis and control statement inventory:
+                 dc 1     
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 2.796 ms, elapsed = 3.088 ms.
+Time accumulated: CPU = 628.396 ms, elapsed = 624.307 ms.
+Peak resident memory used = 79.1 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre0_74895_17, ).
+
+********************************
+DC Analysis `dc': Vin = (0 -> 1)
+********************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    dc: Vin = 30e-03         (3 %), step = 10e-03          (1 %)
+    dc: Vin = 40e-03         (4 %), step = 10e-03          (1 %)
+    dc: Vin = 50e-03         (5 %), step = 10e-03          (1 %)
+    dc: Vin = 60e-03         (6 %), step = 10e-03          (1 %)
+    dc: Vin = 70e-03         (7 %), step = 10e-03          (1 %)
+    dc: Vin = 80e-03         (8 %), step = 10e-03          (1 %)
+    dc: Vin = 90e-03         (9 %), step = 10e-03          (1 %)
+    dc: Vin = 100e-03       (10 %), step = 10e-03          (1 %)
+    dc: Vin = 110e-03       (11 %), step = 10e-03          (1 %)
+    dc: Vin = 120e-03       (12 %), step = 10e-03          (1 %)
+    dc: Vin = 130e-03       (13 %), step = 10e-03          (1 %)
+    dc: Vin = 140e-03       (14 %), step = 10e-03          (1 %)
+    dc: Vin = 150e-03       (15 %), step = 10e-03          (1 %)
+    dc: Vin = 160e-03       (16 %), step = 10e-03          (1 %)
+    dc: Vin = 170e-03       (17 %), step = 10e-03          (1 %)
+    dc: Vin = 180e-03       (18 %), step = 10e-03          (1 %)
+    dc: Vin = 190e-03       (19 %), step = 10e-03          (1 %)
+    dc: Vin = 200e-03       (20 %), step = 10e-03          (1 %)
+    dc: Vin = 210e-03       (21 %), step = 10e-03          (1 %)
+    dc: Vin = 220e-03       (22 %), step = 10e-03          (1 %)
+    dc: Vin = 230e-03       (23 %), step = 10e-03          (1 %)
+    dc: Vin = 240e-03       (24 %), step = 10e-03          (1 %)
+    dc: Vin = 250e-03       (25 %), step = 10e-03          (1 %)
+    dc: Vin = 260e-03       (26 %), step = 10e-03          (1 %)
+    dc: Vin = 270e-03       (27 %), step = 10e-03          (1 %)
+    dc: Vin = 280e-03       (28 %), step = 10e-03          (1 %)
+    dc: Vin = 290e-03       (29 %), step = 10e-03          (1 %)
+    dc: Vin = 300e-03       (30 %), step = 10e-03          (1 %)
+    dc: Vin = 310e-03       (31 %), step = 10e-03          (1 %)
+    dc: Vin = 320e-03       (32 %), step = 10e-03          (1 %)
+    dc: Vin = 330e-03       (33 %), step = 10e-03          (1 %)
+    dc: Vin = 340e-03       (34 %), step = 10e-03          (1 %)
+    dc: Vin = 350e-03       (35 %), step = 10e-03          (1 %)
+    dc: Vin = 360e-03       (36 %), step = 10e-03          (1 %)
+    dc: Vin = 370e-03       (37 %), step = 10e-03          (1 %)
+    dc: Vin = 380e-03       (38 %), step = 10e-03          (1 %)
+    dc: Vin = 390e-03       (39 %), step = 10e-03          (1 %)
+    dc: Vin = 400e-03       (40 %), step = 10e-03          (1 %)
+    dc: Vin = 410e-03       (41 %), step = 10e-03          (1 %)
+    dc: Vin = 420e-03       (42 %), step = 10e-03          (1 %)
+    dc: Vin = 430e-03       (43 %), step = 10e-03          (1 %)
+    dc: Vin = 440e-03       (44 %), step = 10e-03          (1 %)
+    dc: Vin = 450e-03       (45 %), step = 10e-03          (1 %)
+    dc: Vin = 460e-03       (46 %), step = 10e-03          (1 %)
+    dc: Vin = 470e-03       (47 %), step = 10e-03          (1 %)
+    dc: Vin = 480e-03       (48 %), step = 10e-03          (1 %)
+    dc: Vin = 490e-03       (49 %), step = 10e-03          (1 %)
+    dc: Vin = 500e-03       (50 %), step = 10e-03          (1 %)
+    dc: Vin = 510e-03       (51 %), step = 10e-03          (1 %)
+    dc: Vin = 520e-03       (52 %), step = 10e-03          (1 %)
+    dc: Vin = 530e-03       (53 %), step = 10e-03          (1 %)
+    dc: Vin = 540e-03       (54 %), step = 10e-03          (1 %)
+    dc: Vin = 550e-03       (55 %), step = 10e-03          (1 %)
+    dc: Vin = 560e-03       (56 %), step = 10e-03          (1 %)
+    dc: Vin = 570e-03       (57 %), step = 10e-03          (1 %)
+    dc: Vin = 580e-03       (58 %), step = 10e-03          (1 %)
+    dc: Vin = 590e-03       (59 %), step = 10e-03          (1 %)
+    dc: Vin = 600e-03       (60 %), step = 10e-03          (1 %)
+    dc: Vin = 610e-03       (61 %), step = 10e-03          (1 %)
+    dc: Vin = 620e-03       (62 %), step = 10e-03          (1 %)
+    dc: Vin = 630e-03       (63 %), step = 10e-03          (1 %)
+    dc: Vin = 640e-03       (64 %), step = 10e-03          (1 %)
+    dc: Vin = 650e-03       (65 %), step = 10e-03          (1 %)
+    dc: Vin = 660e-03       (66 %), step = 10e-03          (1 %)
+    dc: Vin = 670e-03       (67 %), step = 10e-03          (1 %)
+    dc: Vin = 680e-03       (68 %), step = 10e-03          (1 %)
+    dc: Vin = 690e-03       (69 %), step = 10e-03          (1 %)
+    dc: Vin = 700e-03       (70 %), step = 10e-03          (1 %)
+    dc: Vin = 710e-03       (71 %), step = 10e-03          (1 %)
+    dc: Vin = 720e-03       (72 %), step = 10e-03          (1 %)
+    dc: Vin = 730e-03       (73 %), step = 10e-03          (1 %)
+    dc: Vin = 740e-03       (74 %), step = 10e-03          (1 %)
+    dc: Vin = 750e-03       (75 %), step = 10e-03          (1 %)
+    dc: Vin = 760e-03       (76 %), step = 10e-03          (1 %)
+    dc: Vin = 770e-03       (77 %), step = 10e-03          (1 %)
+    dc: Vin = 780e-03       (78 %), step = 10e-03          (1 %)
+    dc: Vin = 790e-03       (79 %), step = 10e-03          (1 %)
+    dc: Vin = 800e-03       (80 %), step = 10e-03          (1 %)
+    dc: Vin = 810e-03       (81 %), step = 10e-03          (1 %)
+    dc: Vin = 820e-03       (82 %), step = 10e-03          (1 %)
+    dc: Vin = 830e-03       (83 %), step = 10e-03          (1 %)
+    dc: Vin = 840e-03       (84 %), step = 10e-03          (1 %)
+    dc: Vin = 850e-03       (85 %), step = 10e-03          (1 %)
+    dc: Vin = 860e-03       (86 %), step = 10e-03          (1 %)
+    dc: Vin = 870e-03       (87 %), step = 10e-03          (1 %)
+    dc: Vin = 880e-03       (88 %), step = 10e-03          (1 %)
+    dc: Vin = 890e-03       (89 %), step = 10e-03          (1 %)
+    dc: Vin = 900e-03       (90 %), step = 10e-03          (1 %)
+    dc: Vin = 910e-03       (91 %), step = 10e-03          (1 %)
+    dc: Vin = 920e-03       (92 %), step = 10e-03          (1 %)
+    dc: Vin = 930e-03       (93 %), step = 10e-03          (1 %)
+    dc: Vin = 940e-03       (94 %), step = 10e-03          (1 %)
+    dc: Vin = 950e-03       (95 %), step = 10e-03          (1 %)
+    dc: Vin = 960e-03       (96 %), step = 10e-03          (1 %)
+    dc: Vin = 970e-03       (97 %), step = 10e-03          (1 %)
+    dc: Vin = 980e-03       (98 %), step = 10e-03          (1 %)
+    dc: Vin = 990e-03       (99 %), step = 10e-03          (1 %)
+    dc: Vin = 1            (100 %), step = 10e-03          (1 %)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(_net0) = 1 V
+I: I(V0:p) = 5.06 pA
+DC simulation time: CPU = 69.008 ms, elapsed = 69.14 ms.
+
+Notice from spectre at Vin = 1 during DC analysis `dc'.
+    The value of parameter 'Vin' has been reset to the original value 1.
+
+Total time required for dc analysis `dc': CPU = 69.062 ms, elapsed = 69.19 ms.
+Time accumulated: CPU = 704.416 ms, elapsed = 737.542 ms.
+Peak resident memory used = 80.7 Mbytes.
+
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+DC simulation time: CPU = 292 us, elapsed = 292.063 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 1 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   5       (voltage)
+
+    tran: time = 3.458 ns    (3.46 %), step = 1 ns            (1 %)
+    tran: time = 8.458 ns    (8.46 %), step = 1 ns            (1 %)
+    tran: time = 13.06 ns    (13.1 %), step = 1 ns            (1 %)
+    tran: time = 18.06 ns    (18.1 %), step = 1 ns            (1 %)
+    tran: time = 22.72 ns    (22.7 %), step = 1 ns            (1 %)
+    tran: time = 27.72 ns    (27.7 %), step = 1 ns            (1 %)
+    tran: time = 33.06 ns    (33.1 %), step = 1 ns            (1 %)
+    tran: time = 38.06 ns    (38.1 %), step = 1 ns            (1 %)
+    tran: time = 42.72 ns    (42.7 %), step = 1 ns            (1 %)
+    tran: time = 47.72 ns    (47.7 %), step = 1 ns            (1 %)
+    tran: time = 53.06 ns    (53.1 %), step = 1 ns            (1 %)
+    tran: time = 58.06 ns    (58.1 %), step = 1 ns            (1 %)
+    tran: time = 62.72 ns    (62.7 %), step = 1 ns            (1 %)
+    tran: time = 67.72 ns    (67.7 %), step = 1 ns            (1 %)
+    tran: time = 73.06 ns    (73.1 %), step = 1 ns            (1 %)
+    tran: time = 78.06 ns    (78.1 %), step = 1 ns            (1 %)
+    tran: time = 82.72 ns    (82.7 %), step = 1 ns            (1 %)
+    tran: time = 87.72 ns    (87.7 %), step = 1 ns            (1 %)
+    tran: time = 93.06 ns    (93.1 %), step = 1 ns            (1 %)
+    tran: time = 98.06 ns    (98.1 %), step = 1 ns            (1 %)
+Number of accepted tran steps =             736
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I4.PM0:int_d) = 1.117 V
+I: I(V1:p) = 31.03 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  1 (31.2 %)      2 (6.5 %)       3 (1.3 %)       6 (2.6 %)
+                 7 (1.3 %)       9 (1.3 %)      14 (9.0 %)      17 (3.9 %)
+                18 (3.8 %)      22 (2.6 %)      23 (2.6 %)      30 (7.8 %)
+                38 (46.8 %)     
+        Other   
+Initial condition solution time: CPU = 334 us, elapsed = 335.932 us.
+Intrinsic tran analysis time:    CPU = 43.464 ms, elapsed = 43.612 ms.
+Total time required for tran analysis `tran': CPU = 45.499 ms, elapsed = 45.6409 ms.
+Time accumulated: CPU = 751.622 ms, elapsed = 784.9 ms.
+Peak resident memory used = 81.8 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+
+Aggregate audit (2:51:11 PM, Fri Jan 17, 2020):
+Time used: CPU = 803 ms, elapsed = 591 s (9m  50.8s), util. = 136e-03%.
+Time spent in licensing: elapsed = 23.2 ms.
+Peak memory used = 83.3 Mbytes.
+Simulation started at: 2:41:20 PM, Fri Jan 17, 2020, ended at: 2:51:11 PM, Fri Jan 17, 2020, with elapsed time (wall clock): 591 s (9m  50.8s).
+spectre completes with 0 errors, 1 warning, and 1 notice.

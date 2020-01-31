@@ -1,0 +1,10 @@
+-- Base gpdk045 library definition file	
+
+DEFINE analogLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/analogLib
+DEFINE basic $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/etc/cdslib/basic
+DEFINE sheets $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/etc/cdslib/sheets/US_8ths
+
+UNDEFINE gpdk045
+DEFINE gpdk045 /usr/local/cad_common/local/setups/GPDK/gpdk045_v_6_0/gpdk045
+DEFINE lab1_bb /home/bbrown/IC_CAD/CADENCE/lab1_bb
+DEFINE avTech /usr/local/cad_tools/cadence/ASSURA41/tools.lnx86/assura/etc/avtech/avTech

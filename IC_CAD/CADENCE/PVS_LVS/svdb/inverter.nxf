@@ -1,0 +1,18 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary inverter
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% inverter 2 inverter 4 
+0 input 0 input
+0 output 0 output
+0 4 0 vdda!
+0 2 0 gnd!
