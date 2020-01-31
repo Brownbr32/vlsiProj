@@ -24,7 +24,7 @@
 	cd IC_CAD/CADENCE
 
 # File marks:
-'0  6  3  ~/IC_CAD/CADENCE/exit.sh
+'0  6  4  ~/IC_CAD/CADENCE/exit.sh
 '1  4  0  ~/IC_CAD/CADENCE/setup.sh
 '2  4  16  ~/setup.sh
 '3  1  10  ~/IC_CAD/CADENCE/setup.sh
@@ -32,8 +32,36 @@
 '5  1  32  ~/setup.sh
 
 # Jumplist (newest first):
--'  6  3  ~/IC_CAD/CADENCE/exit.sh
+-'  6  4  ~/IC_CAD/CADENCE/exit.sh
 -'  1  0  ~/IC_CAD/CADENCE/exit.sh
+-'  4  0  ~/IC_CAD/CADENCE/setup.sh
+-'  1  0  ~/IC_CAD/CADENCE/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  0  ~/IC_CAD/CADENCE/setup.sh
+-'  1  0  ~/IC_CAD/CADENCE/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
+-'  4  16  ~/setup.sh
+-'  2  0  ~/setup.sh
+-'  1  0  ~/setup.sh
 -'  4  0  ~/IC_CAD/CADENCE/setup.sh
 -'  1  0  ~/IC_CAD/CADENCE/setup.sh
 -'  4  16  ~/setup.sh
@@ -66,13 +94,13 @@
 # History of marks within files (newest to oldest):
 
 > ~/IC_CAD/CADENCE/exit.sh
-	"	6	3
-	^	6	4
-	.	6	3
+	"	6	4
+	^	6	5
+	.	6	4
 	+	5	25
 	+	4	32
 	+	3	10
-	+	6	3
+	+	6	4
 
 > ~/IC_CAD/CADENCE/setup.sh
 	"	4	0
